@@ -1,0 +1,1018 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Hugo 0.84.0">
+    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
+    <title>Souvenir.com</title>
+
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.0/examples/starter-template/">
+
+    <link href="http://fonts.cdnfonts.com/css/playtime" rel="stylesheet">
+    <link href="http://fonts.cdnfonts.com/css/graffiare" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />   
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Play:wght@700&display=swap" rel="stylesheet">                    
+
+    <!-- Bootstrap core CSS -->
+   <link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet">
+   <link href="../PlaytimeWithHotToddies3D.ttf" rel="stylesheet">
+
+    <style>
+      body{
+        /* background-color: #eee; */
+        /* background-color: rgb(245, 236, 245); */
+      }
+      .fontSt{
+        
+        font-family: 'Indie Flower', cursive;
+        font-size: 1.7rem;
+        font-weight: 600;
+
+      }
+      .borderR{
+        border-radius: 1.4rem;
+      }
+      .flat {
+      float: right!important;
+      position: relative;
+      bottom: 132px;
+      left: 145px;
+      width: 257px;
+   }
+
+
+      .fontPT{
+        font-family: 'Playtime';
+        font-size: 2.4rem;
+                                                
+      }
+      .aboutus{
+        /* background-color: #b2d2fa; */
+
+
+        /*  */
+      }
+      .bg{
+        background-color: #eee;
+      }
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
+      
+      .para{
+        font-family: 'Graffiare', sans-serif;
+                                                
+      }
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+    </style>
+
+    
+    <!-- Custom styles for this template -->
+    <!-- sticky-top -->
+    <link href="starter-template.css" rel="stylesheet">
+  </head>
+  <body>
+    <div class="container" style="background-color:#fff;">
+       <div class="row">
+         <div class="col-lg-12 px-0">
+          <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="container-fluid mx-0 px-2">
+              <a class="navbar-brand" href="#"><img class="img-fluid" src="../logo.png" alt=""></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse mr-auto" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 mx-auto fontSt px-4">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#abt_us">About Us</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Catalog</a>
+                  </li>
+                 
+                  <li class="nav-item">
+                    <a class="nav-link" href="#"><img src="../shop-noe.png" alt=""></a>
+                  </li>
+                </ul>
+
+              
+
+              </div>
+            </div>
+          </nav>
+         </div>
+       </div>
+    </div>   
+
+
+<div class="col-lg-10 mx-auto p-lg-3 py-md-5">
+
+  
+  <div class="container col-xxl-12 px-lg-4 py-0 mt-sm-0 mt-lg-5">
+    <div class="row flex-lg-row-reverse align-items-center g-lg-5 py-1 mx-auto">
+      <div class="col-sm-8 col-lg-5 col-md-6">
+        <img src="../hand.png" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="400" height="400" loading="lazy">
+      </div>
+      <div class="col-lg-7 col-md-6">
+        <h1 class="display-5 lead lh-1 mb-3 fontPT text-center">Souvenir and Values</h1>
+        <p class="lead para p-lg-3">Founded in 1972 by Lt Shri O.P. Sharma Ji, Souvenir Publishers has been in the 
+          education business ever since always expanding and broadening it's horizons..</p>
+        <!-- <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+          <button type="button" class="btn btn-primary btn-lg px-4 me-md-2">Primary</button>
+          <button type="button" class="btn btn-outline-secondary btn-lg px-4">Default</button>
+        </div> -->
+      </div>
+    </div>
+  </div>
+
+<div class="container">
+      <div class="row d-flex py-0">
+            <div class="col-lg-10 ">
+                   <p class="para px-3">Singn in to our NewsSeller</p>
+                   <div class="form-group">
+
+                   </div>
+                   
+            </div>
+            <div class="col-lg-2 col-md-2">
+                  <img src="../whats-up.png" alt="">
+            </div>
+      </div>
+
+
+
+      <div class="container">
+        <div class="row">
+         <div class="col-lg-12 pricing-header pb-md-4 mx-auto mt-lg-5">
+           <!-- <h1 class="display-4 fw-normal">What is Souvenir</h1> -->
+           <!-- <p class="fs-5  display-5 para text-center">"It can he held that books are the carriers of
+            civilization. Without books history is silent,
+            literature dumb, science crippled,
+            thought and speculation at a standstill."</p> -->
+            <div class="card w-100 shadow">
+              <div class="card-body">
+                
+                <p class="fs-5 display-5 para text-center"><span style="font-size: 2rem; color:rgb(87, 83, 83)"><i class="fa fa-quote-left" aria-hidden="true"></i>
+                </span> can he held that books are the carriers of
+                  civilization. Without books history is silent,
+                  literature dumb, science crippled,
+                  thought and speculation at a standstill.span <span style="font-size:2rem;"><i class="fa fa-quote-right" aria-hidden="true"></i>
+                  </span></p>
+                 
+              </div>
+            </div>
+            
+         </div>
+         <!-- <div class="row">
+          <div class="col-md-4 ">
+            <img src="../kid.png" alt="" class="flat">
+            </div>
+            </div> -->
+    </div>
+
+
+        </div>
+</div>
+
+
+
+      
+        <!-- <div class="row ">
+          <div class="col-4  d-lg-block">
+            <img src="../kid.png" class="" alt=""> -->
+  
+          
+        
+        </div>
+        
+          <div>
+
+          </div>
+        
+        </div>
+      
+
+
+<div class="container">
+  <div>
+    <div class="row justify-content-lg-between">
+      <div class="col-lg-4 p-0 col-md-5">
+        <img src="../kid.png" class=" p-0 mt-md-5 img-fluid" alt="kid img">
+       </div>
+      <div class="col-lg-8 mt-5 col-md-7 m-auto"> 
+       <div>
+           
+         <h1 class="display-5 lead  lh-1 mb-3 pt-lg-5 pt-md-0 fontPT text-center">WHAT MAKES US STAND OUT</h1>
+         <h1 class="display-6 lead  lh-1 mb-3 px-lg-5 px-md-0 fontPT text-center">FROM OTHERS IN THE SAME FIELD</h1>
+         <p class="p-lg-5 text-uppercase fs-6 text-center para">Souvenir Group' has emerged with its wide spectrum of subject as a 
+           focused hub of books for primary to secondary standards. The primary mission of providing quality contents that help teachers teach and 
+           students learn has made ' Souvenir Books' prescribed in best of schools spanning wide across the country. We print more than 5 million</p>
+         
+         
+        
+                
+       </div>
+      </div>
+
+
+</div>
+  </div>
+
+</div>
+</div>
+
+  
+</div>
+
+
+    <script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
+
+  <div class="container">
+               <div class="row">
+                <div class="pricing-header p-lg-3 pb-md-4 mx-auto text-center px-sm-3">
+                  <h1 class="display-4 lead fontPT">What is Souvenir</h1>
+                  <p class="fs-5 para">Souvenir is the embodiment of our philosophy. Shine and Lead with Souvenir books. 
+                    Expanding on the principles laid down by our founder, we strive to achieve success with those that walk with us.</p>
+                </div>
+               </div>
+  </div>
+
+
+    <div class="container">
+           <div class="row d-flex flex-column flex-md-row align-items-center pb-3 mb-4">
+            <div class="row row-cols-1 row-cols-md-3 mb-3 text-center"> 
+              <div class="col-12 col-md-4 px-lg-5">
+        
+                <!-- <svg class="bd-placeholder-img rounded-circle" width="140" height="140"  role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false"></svg> -->
+
+                <img class="" src="../1.png" alt="">
+                <div class="mx-lg-5  ">
+                  <div class="card shadow p-lg-4 borderR">
+                
+                    <p class=" para">Don't believe in limitations
+                      until you have tested them
+                      yourselves.</p>
+                      <p class="para">lT. Shri.  O.P. Shastri Ji
+                        (Founder)
+                        </p>
+                   
+                  </div>
+                </div>
+
+               
+              </div>
+
+
+
+              <div class="col-12 col-md-4 px-lg-5">
+        
+                <!-- <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false"></svg> -->
+                
+                <img src="../2.png" alt="">
+
+                <div class="mx-lg-5">
+                  <div class="shadow p-lg-4 borderR">
+                
+                    <p class="para">The legacy of Souvenir is
+                      not just books, the values
+                      and our relations mark the
+                      legacy more than anything.</p>
+                      <p class="para">Mr.Gopal Krishan
+                        (Director)</p>
+                   
+                  </div>
+                </div>
+
+               
+              </div>
+
+
+              <div class="col-12 col-md-4 px-lg-5">
+        
+                <!-- <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title></svg> -->
+                <img src="../3.png" alt="">
+
+                <div class="mx-lg-5">
+                  <div class="card p-lg-3 pb-lg-3 borderR shadow">
+                    <!-- <img src="../3.png" alt=""> -->
+                   <div class="card-body">
+                    <p class="para">Life is a journey, not 
+                      a destination. Souvenir has 
+                      been a major part of my 
+                      journey of life.</p>
+                      <p class="para">MR. Bharat Bhushan
+                        (Director)</p>
+                   </div>
+                   
+                  </div>
+                </div>
+
+               
+              </div>
+
+                        
+            </div>
+           </div>
+    </div>
+
+
+    <div class="container col-xxl-12 px-lg-4 py-3">
+      <div class="row flex-lg-row-reverse align-items-center">
+        <div class="col-lg-8 col-md-6">
+          <h1 class="display-5  lh-1 mb-lg-3 text-center lead fontPT">WareHouseing</h1>
+          <p class="lead px-lg-5 para text-center">Souvenir Group' has emerged with its wide spectrum of subject as a focused hub of books for primary to secondary standards.
+          </p>
+
+          <p class="lead px-lg-5 para text-center">
+            Souvenir Group' has emerged with its wide spectrum of subject as a focused hub of books for primary to secondary standards.
+
+          </p>
+
+        </div>
+        <div class="col-lg-4 col-sm-12 col-lg-4 col-md-6">
+          <img src="../4.png" class="d-block mx-lg-auto img-fluid pt-lg-5" alt="Bootstrap Themes" width="700" height="500" loading="lazy">
+        </div>
+
+      </div>
+    </div>
+
+
+     <div class="container pb-lg-5 pt-lg-5 ">
+            <div class="d-flex row justify-content-center">
+               <div class="col-lg-12 col-sm-4 col-md-12 text-center ">
+                   <h2 class="display-5 fontPT">Books available AT </h2>
+               </div>
+
+               
+                 <div class="col-lg-12 col-sm-12 col-md-6 justify-content-center">
+                   <a href="#"><img src="../15.png" alt="img 10"></a>
+                   <a href="#"><img src="../12.png" alt="img 10"></a>
+                   <a href="#"><img src="../10.png" alt="img 10"></a>
+                   
+
+                 </div>
+
+                 <div class=" col-lg-12 col-md-6 justify-content-center">
+                   <a href="#"><img src="../14.png" alt=""></a>  
+                  
+                  <a href="#"><img src="../13.png" alt=""></a>
+                  
+
+                </div>               
+            </div>
+    </div> 
+
+    <div class="container mt-5">
+      <div class="row ">
+       <div class="pricing-header p-lg-3 pb-md-4 mx-auto text-center">
+         <h1 class="display-5 fontPT">You may also be 
+          interested in
+          </h1>
+             
+      </div>
+</div>
+
+<div class="container">
+  <div class="row d-flex flex-column flex-md-row align-items-center pb-3 mb-4">
+   <div class="row row-cols-1 row-cols-md-3 mb-3 text-center"> 
+     <div class="col-lg-4 px-sm-0 ">
+
+       <!-- <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"/><text x="50%" y="50%" fill="#777" dy=".3em">140x140</text></svg> -->
+
+
+       <div class="card border-white">
+         
+       
+           <img src="../5.png" class="" alt="img 5.png">
+          
+        
+       </div>
+
+      
+     </div>
+
+
+
+     <div class="col-lg-4 px-sm-0">
+
+       <!-- <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"/><text x="50%" y="50%" fill="#777" dy=".3em">140x140</text></svg> -->
+
+
+       <div class="card border-white">
+         
+       
+          <img src="../6.png" alt="img 6.png">
+          
+         
+       </div>
+
+      
+     </div>
+
+
+     <div class="col-lg-4 px-sm-0">
+
+       <!-- <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"/><text x="50%" y="50%" fill="#777" dy=".3em">140x140</text></svg> -->
+
+
+       <div class="card border-white">
+         
+       
+          <img src="../7.png" alt="img 7.png">
+          
+         
+       
+       </div>
+
+      
+     </div>
+
+               
+   </div>
+  </div>
+</div>
+
+
+<!-- ---------------------------------------------------------------------------------------------
+-- ________________________------------About Us---------------______________________________ --
+---------------------------------------------------------------------------------------------- -->
+
+<!-- <script>
+  document.querySelector('#abt_us').scrollIntoView({ 
+  behavior: 'smooth' 
+});
+</script> -->
+
+
+<div  id="abt_us" class="container">
+
+  <div  class="row align-items-md-stretch mt-5 bg-light rounded-4"> 
+    <div class="col-lg-5 mx-auto">
+      <div class="h-100 p-sm-5 text-dark  aboutus rounded-3">
+        <h2 style="font-size: 4rem;" class="text-center fontPT">About Us</h2>
+        <p class="para text-center">Meet the amazing team behind this company and 
+          find out more about how we work.</p>
+          
+          
+        
+      </div>
+
+    </div>
+    <div class="col-lg-7 col-sm-12">
+       <img src="abt/Banner.png" class="img-fluid" alt="">
+    </div>
+  </div>
+
+</div>
+
+
+<div class="container">
+
+  <div class="row align-items-md-stretch mt-5"> 
+    <div class="col-12 mx-auto">
+      <div class="h-100 p-lg-5 text-dark rounded-3">
+        <h2 class="text-center fontPT">Value in Heritage</h2>
+        <p class="para text-center">Our greatest strength is our heritage. 
+          Our roots are robust and our pillars strong.</p>
+        
+      </div>
+
+    </div>
+  </div>
+
+</div>
+
+
+<div class="container">
+  <div class="row d-flex flex-column flex-md-row align-items-center pb-3 mb-4">
+   <div class="row row-cols-1 row-cols-md-3 mb-3 text-center"> 
+     <div class="col px-lg-5">
+
+       <!-- <svg class="bd-placeholder-img rounded-circle" width="140" height="140"  role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false"></svg> -->
+
+       <img src="abt/1.png" alt="">
+       <div class="px-lg-5 pt-lg-2">
+         <div class="">
+       
+          <h4 class="text-uppercase">Backed by a 
+            strong team</h4>
+             <p class="para">
+              We have a strong backend team 
+              that ensures we always have
+               the best products in the market.
+               </p>
+          
+         </div>
+       </div>
+
+      
+     </div>
+
+
+
+     <div class="col">
+
+       <!-- <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false"></svg> -->
+
+       <img src="abt/2.png" alt="">
+       <div class="mx-lg-5 pt-lg-2">
+         <div class="">
+       
+           <h4 class="text-uppercase">In-house 
+            IT team</h4>
+             <p class="para">A Dedicated Souvenir funded startup that ensures innovation round the clock.</p>
+          
+         </div>
+       </div>
+
+      
+     </div>
+
+
+     <div class="col px-lg-5 pt-lg-2">
+
+       <!-- <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title></svg> -->
+         
+       <img src="abt/3.png" alt="">
+
+       <div class="">
+         <div class="">
+           <!-- <img src="../3.png" alt=""> -->
+              <h4 class="text-uppercase">Teacher Satisfaction 
+                at the heart of 
+                company policies</h4>
+             <p class="para">We, at Souvenir believe thet the teacher is the focal point of our industry and we strive to make their job easier.</p>
+          
+         </div>
+       </div>
+
+      
+     </div>
+
+               
+   </div>
+  </div>
+</div>
+
+<div class="container">
+
+  <div class="row align-items-md-stretch mt-5"> 
+    <div class="col-12 mx-auto">
+      <div class="h-100 p-lg-5 text-dark rounded-3">
+        <h2 class=" text-center fontPT">What makes us special ?</h2>
+        <p class="para text-center">Our greatest strength is our heritage. 
+          Our roots are robust and our pillars strong.</p>
+        
+      </div>
+
+    </div>
+  </div>
+
+</div>
+
+
+<div class="container">
+  <div>
+    <div class="row justify-content-lg-between">
+      <div class="col-lg-4 p-0 col-sm-4 col-md-8 mx-md-auto">
+       <img src="abt/25.png" class="img-fluid p-lg-5 p-md-5" alt="">
+      </div>
+      <div class="col-lg-8 mt-5"> 
+       <div>
+           
+         <h1 class="lh-1 mb-3 pt-lg-3  text-center fontPT">e-Learning tools that 
+          focus on the teacher</h1>
+         <p class="para px-lg-5">We understand that the teacher is the most 
+          important part of the education system and all our tools are made with this in mind.</p>
+          <h1 class="lh-1 mb-3 pt-lg-3  text-center">It's easy to get in 
+            touch with us.</h1>
+            <p class="para px-lg-5">Getting in touch with us has never been easier. We have a Contact Us tab in all our products.</p>
+
+         
+         
+        
+                
+       </div>
+      </div>
+</div>
+  </div>
+
+</div>
+
+<div class="container">
+  
+    <div class="row justify-content-lg-between">
+  
+
+
+      <div class="col-lg-7 col-sm-12 mt-5"> 
+       <div>
+           
+         <h1 class="lh-1 mb-3 pt-lg-3  text-center fontPT">e-Learning tools that 
+          focus on the teacher</h1>
+         <p class="para px-lg-5">We understand that the teacher is the most 
+          important part of the education system and all our tools are made with this in mind.</p>
+          <h1 class="lh-1 mb-3 pt-lg-3  text-center">It's easy to get in 
+            touch with us.</h1>
+            <p class="para px-lg-5">Getting in touch with us has never been easier. We have a Contact Us tab in all our products.</p>
+
+         
+         
+        
+                
+       </div>
+      </div>
+      <div class="col-lg-5 col-sm-12 col-md-8 mx-md-auto">
+        <img class="img-fluid p-sm-5 p-lg-5" src="abt/24.png" alt="">
+    </div>
+</div>
+  
+
+</div>
+
+
+<div class="container">
+
+  <div class="row align-items-md-stretch mt-5"> 
+    <div class="col-12 mx-auto">
+      <div class="h-100 p-lg-5 text-dark rounded-3">
+        <h2 class="para text-center">Under Our Umbrella</h2>
+        <p class="para text-center">Brands that come under Souvenir.</p>
+        
+      </div>
+
+    </div>
+  </div>
+
+</div>
+
+
+
+
+
+<div class="container pb-lg-5 pt-lg-5">
+     <div class="row">
+       <div class="col-md-3">
+          <img src="abt/4.png" alt="">
+          <h2 class="text-center">Red Dot  Singapore</h2>
+          <h4 class="text-center">Book Publishing (Singapore)</h4>
+          <p class="text-center">Keep your face always toward the sunshine - and shadows will fall behind you...</p>
+       </div>
+       <div class="col-md-3">
+        <img class="mx-auto" src="abt/6.png" alt="">
+        <h2 class="text-center">Red Dot Nigeria</h2>
+        <h4 class="text-center">Book Publishing (Nigeria)</h4>
+        <p class="text-center">Keep your face always toward the sunshine - and shadows will fall behind you...</p>
+      </div>
+      <div class="col-md-3">
+        <img src="abt/5.png" alt="">
+        <h2 class="text-center">Lifeskills</h2>
+        <h4 class="text-center">Book Publishing</h4>
+        <p class="text-center">There is only one corner of the universe you can be certain of improving, and that's your own self...</p>
+      </div>
+      <div class="col-md-3">
+        <img src="abt/7.png" alt="">
+        <h2 class="text-center">Dhruv 
+          Enterprises</h2>
+          <h4 class="text-center">Book Publishing</h4>
+          <p class="text-center">Think in the morning. Act in the noon. Eat in the evening. Sleep in the night......</p>
+      </div>
+     </div>
+</div>
+
+
+
+
+
+
+<!-- -------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------
+                          EVENTS AND AWARDS                                         
+------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------                           -->
+
+                  
+<div class="container">
+  <div class="row d-flex flex-column flex-md-row align-items-center pb-3 mb-4 mt-sm-5">
+   <div class="row row-cols-1 row-cols-md-3 mb-3 text-center"> 
+     <div class="col px-lg-5 my-sm-4">
+
+       <!-- <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"/><text x="50%" y="50%" fill="#777" dy=".3em">140x140</text></svg> -->
+
+
+       <div class="card border-white">
+         
+       
+           <img src="abt/10.png" class="" alt="img 10.png">
+          
+        
+       </div>
+
+      
+     </div>
+
+
+
+     <div class="col px-lg-5 my-sm-4">
+
+       <!-- <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"/><text x="50%" y="50%" fill="#777" dy=".3em">140x140</text></svg> -->
+
+
+       <div class="card border-white">
+         
+       
+          <img src="abt/12.png" alt="img 10.png">
+          
+         
+       </div>
+
+      
+     </div>
+
+
+     <div class="col px-lg-5 my-sm-4 d-none-sm">
+
+       <!-- <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"/><text x="50%" y="50%" fill="#777" dy=".3em">140x140</text></svg> -->
+
+
+       <div class="card border-white">
+         
+       
+          <img src="abt/15.png" alt="img 7.png">
+          
+         
+       
+       </div>
+
+      
+     </div>
+
+               
+   </div>
+  </div>
+
+  <div class="row d-flex flex-column flex-md-row align-items-center pb-3 mb-4">
+    <div class="row row-cols-1 row-cols-md-3 mb-3 text-center"> 
+      <div class="col px-lg-5">
+ 
+         <!-- <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"/><text x="50%" y="50%" fill="#777" dy=".3em">140x140</text></svg>  -->
+ 
+ 
+        <div class="card border-white">
+          
+        
+            <img src="abt/14.png" class="" alt="img 15.png">
+           
+         
+        </div>
+ 
+       
+      </div>
+ 
+ 
+ 
+      <div class="col px-lg-5">
+ 
+        <!-- <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"/><text x="50%" y="50%" fill="#777" dy=".3em">140x140</text></svg> -->
+ 
+ 
+        <div class="card border-white">
+          
+        
+           <img src="abt/16.png" alt="img 6.png">
+           
+          
+        </div>
+ 
+       
+      </div>
+ 
+ 
+      <div class="col px-lg-5">
+ 
+        <!-- <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"/><text x="50%" y="50%" fill="#777" dy=".3em">140x140</text></svg> -->
+ 
+ 
+        <div class="card border-white">
+          
+        
+           <img src="abt/17.png" alt="img 7.png">
+           
+          
+        
+        </div>
+ 
+       
+      </div>
+ 
+                
+    </div>
+   </div>
+</div>
+
+<div class="container">
+
+  <div class="row align-items-md-stretch mt-5"> 
+    <div class="col-12 mx-auto">
+      <div class="h-100 p-lg-5 text-dark rounded-3">
+        <h2 class="para text-center">Want to work with us?</h2>
+        <p class="para text-center">Divide details about your product or agency work into parts. Write a few lines about each one and contact us about any further collaboration. We will get back to you in a couple of days.</p>
+        
+      </div>
+
+    </div>
+  </div>
+  <!-- <div class="row align-items-md-stretch mt-5">
+    <div class="col-12 mx-auto">
+      <form class="border p-5 rounded-3">
+        <div class="row">
+          <div class="col-4">
+            <input type="text" class="form-control" placeholder="First name">
+          </div>
+          <div class="col-4">
+            <input type="text" class="form-control" placeholder="email" type="eamil" required>
+          </div>
+          <div class="col-4">
+            <input type="" class="form-control" placeholder="Designation" type="" required>
+          </div>
+        </div>
+        <div class="row ">
+           <div class="col-4 mx-auto pt-4">
+            <div class="btn btn-outline-secondary">
+              Enter
+            </div>
+           </div>
+        </div>
+      </form>
+    </div>
+  </div> -->
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   <!-- -------------------------------------------
+   -------------------FOOTER-----------------------
+   ------------------------------------------------->
+
+   <!-- Footer -->
+<footer class="container-fluid  text-center text-lg-start bg-light text-muted">
+  <!-- Section: Social media -->
+  <section
+    class="d-flex justify-content-center justify-content-lg-center p-4">
+    <!-- Left -->
+    <!-- <div class="me-5 d-none d-lg-block">
+      <span>Get connected with us on social networks:</span>
+    </div> -->
+    <!-- Left -->
+
+    <!-- Right -->
+    <div>
+      <a href="" class="me-4 text-reset">
+        <!-- <i style="font-size: 1.8rem;" class="fab fa-facebook-f"></i> -->
+        <img src="../fb.png" alt=" fb png img">
+      </a>
+      <a href="" class="me-4 text-reset">
+        <!-- <i style="font-size: 1.8rem;" class="fab fa-twitter"></i> -->
+        <img src="../tw.png" alt="">
+      </a>
+      <a href="" class="me-4 text-reset">
+        <!-- <i  style="font-size: 1.8rem;" class="fab fa-google"></i> -->
+        <img src="../g+.png" alt="">
+      </a>
+      <a href="" style="font-size: 1.8rem;" class="me-4 text-reset">
+        <!-- <i class="fab fa-linkedin"></i> -->
+        <img src="../link.png" alt="">
+      </a>
+      <!-- <a href="" class="me-4 text-reset">
+        <i class="fab fa-instagram"></i>
+      </a>
+
+      <a href="" class="me-4 text-reset">
+        <i class="fab fa-github"></i>
+      </a> -->
+    </div>
+    <!-- Right -->
+  </section>
+  <!-- Section: Social media -->
+
+  <!-- Section: Links  -->
+  <section class="fontSt">
+    <div class="container text-center text-md-start mt-5">
+      <!-- Grid row -->
+      <div class="row mt-3">
+        <!-- Grid column -->
+        <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+          <!-- Content -->
+          <h6 class="text-uppercase fw-bold mb-4">
+            <i class="fas fa-gem me-3"></i>Need Help with Anything
+          </h6>
+          <p>
+            Lets here all about us! <span>Contact Us</span>
+          </p>
+        </div>
+        <!-- Grid column -->
+
+        
+        <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+               
+          <p>
+            <a href="#!" class="text-reset text-decoration-none ">About Us</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset text-decoration-none">Media</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset text-decoration-none">Privacy Policy</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset text-decoration-none">Return and Refund Policy</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset text-decoration-none">Terms of use</a>
+          </p>
+        </div>
+        
+        <!-- Grid column -->
+        <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+          <!-- Links -->
+          <h6 class="text-uppercase fw-bold mb-4">
+            Sign up to our NewsSeller
+          </h6>
+          <form action="" class="">
+          <div class="mb-3">
+            <!-- <label for="exampleInputEmail1" class="form-label">Email address</label> -->
+            <input type="email" required class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Your email address">
+            <button type="submit" class="btn btn-outline-secondary mt-2">Submit</button>
+
+            
+          </div>
+          </form>
+        
+        </div>
+        <!-- Grid column -->
+      </div>
+      <!-- Grid row -->
+
+    </div>
+  </section>
+
+  <!-- <div class="row text-center border d-sm-none">
+
+      <div class="col-lg-12  ">
+        <ul class="d-flex justify-content-center my-2">
+    
+          <a class="nav-link active text-uppercase" aria-current="page" href="#">Contact Us</a>
+        
+        
+          <a class="nav-link text-uppercase" href="#">About Us</a>
+        
+    
+          <a class="nav-link text-uppercase" href="#">Our Services</a>
+          <a class="nav-link text-uppercase" href="#">Our Dashbord</a>
+        
+    
+      </ul>
+      </div>  
+
+
+  </div> -->
+
+</footer>
+
+
+
+  
+  </body>
+</html>
