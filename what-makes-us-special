@@ -1,0 +1,100 @@
+<div class="container">
+  <div>
+    <div class="row justify-content-lg-between px-lg-5">
+      <div class="col-lg-5 p-0 col-sm-4 col-md-7 mx-md-auto p-lg-4">
+        <div class="card fontPT border-white">
+          <img class="card-img-top" src="abt/25.png" alt="Card image">
+          <div class="card-img-overlay pt-md-5">
+            <h1 class="card-title text-white text-center my-0">BEST IN</h1>
+            <h1 class="card-title text-white text-center my-0">CLASS</h1>
+            <h1 class="card-title text-white text-center my-0">PRODUCTS</h1>
+
+            <h5 class="card-title text-white text-center fs-6  px-lg-5 para pb-3">OUR PRODUCTS ARE CAREFULLY DESIGNED AFTER A DELIGINCE AND SEGMENT ANALYSIS.</h5>          
+            <!-- <img src="../shop-noe.png" alt=""> -->
+        
+            
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-8 col-lg-7"> 
+       
+           
+<div style="display: flex;">
+  <div class="pt-md-3 mr-md-3 mt-lg-2"><img class="" src="abt/18.png" alt=""></div> <h1 style="color:green"  class="lh-1 mb-3 pt-lg-3  text-center fontPT fs-3 text-uppercase">e-Learning tools that 
+    focus on the teacher</h1>
+</div>
+         <p class="para text-center mx-lg-5">We understand that the teacher is the most 
+          important part of the education system and all our tools are made with this in mind.</p>
+          <div style="display: flex;">
+            <div class="pt-md-3 mr-md-3 mt-lg-2"><img class="" src="abt/19.png" alt=""></div> <h1 style="color:blue"  class="lh-1 mb-3 pt-lg-3  text-center fontPT fs-3 text-uppercase">It's esay to get in touch with us.</h1>
+          </div>
+            <p class="para px-lg-5 text-center">Getting in touch with us has never been easier. We have a 
+              Contact Us tab in all our products.</p>
+              <div style="display: flex;">
+                <div class="pt-md-3 mr-md-3 mt-lg-2"><img class="" src="abt/20.png" alt=""></div> <h1 style="color:lightblue"  class="lh-1 mb-3 pt-lg-3  text-center fontPT fs-3 text-uppercase">Prompt service at the fore of our operations.</h1>
+              </div>
+                <p class="para px-lg-5 text-center">We believe in the value of time. We ensure timely deleveries and assure you
+                  are always working round the clock to fulfill our promises.
+                </p>
+         
+         
+        
+                
+       
+      </div>
+</div>
+  </div>
+
+</div>
+
+
+<div class="container pt-4">
+  <div>
+    <div class="row justify-content-lg-between">
+
+
+      <div class="col-md-8 col-lg-7"> 
+      <div style="display: flex;">
+  <div class=" mr-md-3 mt-lg-2"><img class="" src="abt/21.png" alt=""></div> <h1 style="color:green"  class="lh-1 mb-3 pt-lg-3  text-center fontPT fs-3 text-uppercase">Hand picked team
+</h1>
+</div>
+         <p class="para text-center px-lg-5">We understand that the teacher is the most 
+          important part of the education system and all our tools are made with this in mind.</p>
+          <div style="display: flex;">
+            <div class="pt-md-3 mr-md-3 mt-lg-2"><img class="" src="abt/22.png" alt=""></div> <h1 style="color:blue"  class="lh-1 mb-3 pt-lg-3  text-center fontPT fs-3 text-uppercase">It's esay to get in touch with us.</h1>
+          </div>
+            <p class="para px-lg-5 text-center">Getting in touch with us has never been easier. We have a 
+              Contact Us tab in all our products.</p>
+              <div style="display: flex;">
+                <div class="pt-md-3 mr-md-3 mt-lg-2"><img class="" src="abt/23.png" alt=""></div> <h1 style="color:lightblue"  class="lh-1 mb-3 pt-lg-3  text-center fontPT fs-3 text-uppercase">Prompt service at the fore of our operations.</h1>
+              </div>
+                <p class="para px-lg-5 text-center">We believe in the value of time. We ensure timely deleveries and assure you
+                  are always working round the clock to fulfill our promises.
+                </p>
+         
+         
+        
+                
+       
+      </div>
+      <div class="col-lg-5 p-0 col-sm-4 col-md-7 mx-md-auto p-lg-5">
+        <div class="card fontPT py border-white">
+          <img class="card-img-top" src="abt/24.png" alt="Card image">
+          <div class="card-img-overlay">
+            <h1 class="card-title text-white text-center my-0">WE</h1>
+            <h1 class="card-title text-white text-center my-0">DEVELOP</h1>
+            <h1 class="card-title text-white text-center my-0">EVERY </h1>
+            <h1 class="card-title text-white text-center my-0">THING IN</h1>
+            <h1 class="card-title text-white text-center my-0">HOUSE</h1>
+            <h5 class="card-title text-white text-center fs-6  px-lg-5 para pb-3">SMART MEDIA IS A IT SOLUTION BASED STARTUP FOUNDED BY SOUVENIER PUBLISHERS.</h5>          
+            <!-- <img src="../shop-noe.png" alt=""> -->
+        
+            
+          </div>
+        </div>
+       </div>
+</div>
+  </div>
+
+</div>
