@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <title>Document</title>
+    <link href="http://fonts.cdnfonts.com/css/graffiare" rel="stylesheet">
+                
+    <style>
+        body{
+            display: flex;justify-content: center;align-items: center;min-height: 100vh;
+        }
+        .myimg{
+            position: relative;
+            margin-top: -175px;
+        }
+        /* @media screen and (min-width:480px){
+            .myimg{
+            position: relative;
+            margin-top: -95px;
+        }
+        } */
+        .para{
+            font-family: Graffiare;
+            line-height: 1.12;
+        }
+        .bd{
+            border: 4px solid #eee;
+        }
+    </style>
+</head>
+<body>
+<div style="width: 80%;"  class=" ml-auto mr-auto mt-md-5">
+    <div class="card card-body  rounded-4 bd" style="border-radius: 20px;">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8">
+                 <p class="para fs-1"><b>"It can he held that books are the carriers of
+                    civilization. Without books history is silent,
+                    literature dumb, science crippled,
+                    thought and speculation at a standstill."</b></p>
+                </div>
+                <div class="col-md-4">
+                   <img src="ff.png" style=""  class="img-fluid myimg" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
