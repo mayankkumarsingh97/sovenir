@@ -1,0 +1,585 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Hugo 0.84.0">
+    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
+    <title>Souvenir.com</title>
+
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.0/examples/starter-template/">
+
+    <link href="http://fonts.cdnfonts.com/css/playtime" rel="stylesheet">
+    <link href="http://fonts.cdnfonts.com/css/graffiare" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />   
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Play:wght@700&display=swap" rel="stylesheet">     
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">               
+
+    <!-- Bootstrap core CSS -->
+   <link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet">
+   <link href="../PlaytimeWithHotToddies3D.ttf" rel="stylesheet">
+   <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+   <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+   <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+
+   <style type="text/css">
+		.subscribe-area {
+/*background-image: linear-gradient(to top, #00c6fb 0%, #005bea 100%);*/
+}
+
+.pb-50 {
+    padding-bottom: 50px;
+}
+.pt-70 {
+    padding-top: 70px;
+}
+
+.mb-15 {
+    margin-bottom: 15px;
+}
+
+.subscribe-text span {
+    font-size: 12px;
+    font-weight: 700;
+    color: #fff;
+    letter-spacing: 5px;
+}
+.subscribe-text h2 {
+    color: #fff;
+    font-size: 22px;
+    font-weight: 300;
+    margin-bottom: 0;
+    margin-top: 6px;
+}
+.subscribe-wrapper {
+    overflow: hidden;
+}
+.mb-15 {
+    margin-bottom: 15px;
+}
+.subscribe-form {
+}
+.subscribe2-wrapper .subscribe-form input {
+    background: none;
+    border: 1px solid #fff;
+    border-radius: 30px;
+    color: #000;
+    display: inline-block;
+    font-size: 15px;
+    font-weight: 300;
+    height: 37px;
+    margin-right: -117px;
+    padding-left: 35px;
+    width: 50%;
+    cursor: pointer;
+    border:1px solid green;
+}
+ 
+.subscribe2-wrapper .subscribe-form button {
+    background: #ffff;
+    border: 2px solid green;
+    border-radius: 30px;
+    color: #4b5d73;
+    display: inline-block;
+    /* font-size: 18px; */
+    font-weight: 400;
+    line-height: 1;
+    padding: 9px 30px;
+    transition: all 0.3s ease 0s;
+}
+.subscribe2-wrapper .subscribe-form button i {
+    font-size: 18px;
+    padding-left: 5px;
+}
+
+	</style>
+    <style>
+      body{
+        /* background-color: #eee; */
+        /* background-color: rgb(245, 236, 245); */
+      }
+      .fontSt{
+        
+        font-family: 'Indie Flower', cursive;
+        font-size: 1.6rem;
+        font-weight: 400;
+
+      }
+      /* .bd{
+            
+            background: linear-gradient(180deg,lightblue,#fff)
+        } */
+        .myimg{
+          margin-top: -147px;
+    position: relative;
+        }
+      .borderR{
+        border-radius: 1.4rem;
+      }
+      .flat {
+      float: right!important;
+      position: relative;
+      bottom: 132px;
+      left: 145px;
+      width: 257px;
+   }
+   @font-face {
+  font-family: Playtime;
+  src: url(Playtime.otf);
+
+}
+
+      .fontPT{
+        font-family: Playtime;
+        font-size: 4.6rem;
+                                                
+      }
+      @media screen  and (max-width:768px) {
+        .fontPT{
+        font-family: Playtime;
+        font-size: 2.6rem;
+                                                
+      } 
+      .myimg {
+    margin-top: -103px;
+    position: relative;
+}
+.subscribe2-wrapper .subscribe-form input{
+  margin-right: -44px;
+}
+      }
+
+      .bg{
+        background-color: #eee;
+      }
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
+      
+      .para{
+        font-family: 'Graffiare', sans-serif;
+                                                
+      }
+      @media (max-width:575px) {
+        .fontPT{
+          font-size: 2.2rem;
+        }
+      }
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.7rem;
+        }
+      }
+
+    </style>
+
+    
+    <!-- Custom styles for this template -->
+    <!-- sticky-top -->
+    <link href="starter-template.css" rel="stylesheet">
+  </head>
+  <body>
+
+    <nav class="navbar navbar-expand-lg navbar-light">
+      <div class="container ">
+        <a class="navbar-brand" href="#"><img src="../logo.png" alt=""></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+          <ul class="navbar-nav ml-auto mb-2 mb-lg-0 fontSt">
+            <li class="nav-item pt-lg-4">
+              <a class="nav-link active " aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item pt-lg-4 px-lg-4">
+              <a class="nav-link" href="#">About us</a>
+            </li>
+            <li class="nav-item pt-lg-4">
+              <a class="nav-link" href="#">Catalog</a>
+            </li>
+            
+            <li class="nav-item">
+              <a class="nav-link" href="#"><img class="img-fluid" src="../shop-noe.png" alt=""></a>
+            </li>
+
+          </ul>
+
+        </div>
+      </div>
+    </nav>
+
+
+<!-- <div class="col-lg-10 mx-auto p-lg-3 py-md-5"> -->
+
+  
+  <div class="container">
+    <div class="row">
+
+      <div class="col-md-7 py-md-5">
+        <h1  style="" class="lh-1  fontPT  text-uppercase">Souvenir</h1>
+        <h1 style=""  class="lh-1 fontPT ml-md-5 text-uppercase"><span>&</span><span>Values</span></h1>
+        <p class="para">Founded in 1972 by Lt Shri O.P. Sharma Ji, Souvenir Publishers has been in the 
+          education business ever since always expanding and broadening it's horizons.In Todays's knowledge driven world we believe there is nothing as important as helping people to learn 
+          and make progress..</p>
+
+        <!-- <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+          <button type="button" class="btn btn-primary btn-lg px-4 me-md-2">Primary</button>
+          <button type="button" class="btn btn-outline-secondary btn-lg px-4">Default</button>
+        </div> -->
+      </div>
+      <div class="col-md-5">
+        <img src="../hand.png" class="img-fluid" alt="Bootstrap Themes" width="500" height="500">
+      </div>
+    </div>
+  </div>
+
+<div class="container">
+      <div class="row  py-0">
+            <div class="col-md-8">
+                   <p class="fs-6 text-uppercase para">sign-up to our NewsSeller</p>
+                   
+                   <div class="subscribe-wrapper subscribe2-wrapper mb-15">
+                    <div class="subscribe-form">
+                      <form action="#">
+                        <input placeholder="Your Email Address" type="email">
+                        <a href="#"><button>ENTER</button></a>
+                      </form>
+                    </div>
+                  </div>
+                   
+            </div>
+            <div class="col-md-3"> 
+
+            </div>
+            <div class="col-md-1">
+                  <img src="../whats-up.png" alt="">
+            </div>
+      </div>
+
+
+
+      <div class="container mt-md-5">
+        <div class="row">
+         <div class="col-md-12">
+
+          
+            <div class="card card-body  bd" style="border-radius: 20px;border: 3px solid #eee;">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-8">
+                         <p class="para fs-4"><b>"It can he held that books are the carriers of
+                            civilization. Without books history is silent,
+                            literature dumb, science crippled,
+                            thought and speculation at a standstill."</b></p>
+                        </div>
+                        <div class="col-md-4">
+                           <img src="../ff.png"  class="img-fluid myimg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+            
+         </div>
+
+    </div>
+
+
+        </div>
+</div>
+
+
+
+      
+        <!-- <div class="row ">
+          <div class="col-4  d-lg-block">
+            <img src="../kid.png" class="" alt=""> -->
+  
+          
+        
+        </div>
+        
+          <div>
+
+          </div>
+        
+        </div>
+      
+
+
+<div class="container pt-md-5">
+  <div>
+    <div class="row">
+      <div class="col-md-5">
+        <img src="../kid.png" class=" p-0 mt-md-5 img-fluid" alt="kid img">
+       </div>
+      <div class="col-md-7"> 
+       <div>
+           
+         <h1 class="display-5 lead  lh-1 mb-3 pt-lg-5 pt-md-0  fontPT  text-center">WHAT MAKES US STAND OUT</h1>
+         <h1 class="display-6 lead  lh-1 mb-3 px-lg-5 px-md-0 fontPT text-center fs-1">FROM OTHERS IN THE SAME FIELD</h1>
+         <p class="text-uppercase fs-6 text-center para">Souvenir Group' has emerged with its wide spectrum of subject as a 
+           focused hub of books for primary to secondary standards. The primary mission of providing quality contents that help teachers teach and 
+           students learn has made ' Souvenir Books' prescribed in best of schools spanning wide across the country. We print more than 5 million</p>
+         
+         
+        
+                
+       </div>
+      </div>
+
+
+</div>
+  </div>
+
+</div>
+</div>
+
+  
+</div>
+
+
+    <script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
+
+  <div class="container mt-md-5">
+               <div class="row">
+                <div class="col-md-12">
+                  <h1 class="display-4 lead fontPT text-center">What is Souvenir</h1>
+                  <p class="fs-5 para text-center">Souvenir is the embodiment of our philosophy. Shine and Lead with Souvenir books. 
+                    Expanding on the principles laid down by our founder, we strive to achieve success with those that walk with us.</p>
+                </div>
+               </div>
+  </div>
+
+
+<div class="container">
+     <div class="row">
+       <div class="col-md-4">
+                <img src="../1.png" class="img-fluid " alt="">
+                <div class="card card-body">
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit, ipsa eum sequi animi aliquam hic reiciendis? Eum, praesentium.</p>
+           </div>
+       </div>
+       <div class="col-md-4">
+            <img src="../2.png" class="img-fluid" alt="">
+            <div class="card card-body">
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit, ipsa eum sequi animi aliquam hic reiciendis? Eum, praesentium.</p>
+       </div>
+            
+       </div>
+       <div class="col-md-4">
+          <img src="../3.png" class="img-fluid" alt="">
+          <div class="card card-body">
+                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit, ipsa eum sequi animi aliquam hic reiciendis? Eum, praesentium.</p>
+          </div>
+       </div>
+     </div>
+</div>
+
+
+   
+
+
+    <div class="container mt-md-5">
+      <div class="row">
+        <div class="col-md-7">
+          <h1 class="lh-1 text-center  fontPT">WareHouseing</h1>
+          <p class="para text-center">Souvenir Group' has emerged with its wide spectrum of subject as a focused hub of books for primary to secondary standards.
+          </p>
+
+          <p class="para text-center">
+            Souvenir Group' has emerged with its wide spectrum of subject as a focused hub of books for primary to secondary standards.
+
+          </p>
+
+        </div>
+        <div class="col-md-5">
+          <img src="../4.png" class="img-fluid" alt="Bootstrap Themes" loading="lazy">
+        </div>
+
+      </div>
+    </div>
+
+
+    <div class="container mt-md-5">
+        <div class="row"><div class="col-md-12"><h2 class="text-center  fontPT">BOOKS AVAILABLE AT</h2></div></div>
+         
+        <div class="row justify-content-center">
+          <div class="col-md-3"><img src="../10.png" class="img-fluid" alt=""></div>
+          <div class="col-md-3"><img src="../12.png" class="img-fluid" alt=""></div>
+          <div class="col-md-3"><img src="../13.png" class="img-fluid" alt=""></div>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-md-3"><img src="../14.png" class="img-fluid" alt=""></div>
+          <div class="col-md-3"><img src="../15.png" class="img-fluid" alt=""></div>
+          
+        </div>
+
+   
+    </div> 
+
+    <div class="container mt-5">
+      <div class="row">
+       <div class="text-center">
+         <h1 class="display-5 fontPT">You may also be 
+          interested in
+          </h1>
+             
+      </div>
+</div>
+</div>
+
+<div class="container mt-md-5">
+  <div class="row justify-content-center">
+    <div class="col-md-3"><a href="#"><img class="img-fluid p-md-4" src="../5-new.png" alt=""></a></div>
+    <div class="col-md-3"><a href="#"><img class="img-fluid p-md-4" src="../6-new.png" alt=""></a></div>
+    <div class="col-md-3"><a href="#"><img class="img-fluid p-md-4" src="../7-new.png" alt=""></a></div>
+  </div>
+</div>
+
+
+
+
+   <!-- -------------------------------------------
+   -------------------FOOTER-----------------------
+   ------------------------------------------------->
+
+   <!-- Footer -->
+<footer class="container-fluid  text-center text-md-start bg-light text-muted">
+  <!-- Section: Social media -->
+  <section
+    class="d-flex justify-content-center justify-content-md-center">
+    <!-- Left -->
+    <!-- <div class="me-5 d-none d-lg-block">
+      <span>Get connected with us on social networks:</span>
+    </div> -->
+    <!-- Left -->
+
+    <!-- Right -->
+    <div>
+      <a href="" class="me-4 text-reset">
+        <!-- <i style="font-size: 1.8rem;" class="fab fa-facebook-f"></i> -->
+        <img src="../fb.png" alt=" fb png img">
+      </a>
+      <a href="" class="me-4 text-reset">
+        <!-- <i style="font-size: 1.8rem;" class="fab fa-twitter"></i> -->
+        <img src="../tw.png" alt="">
+      </a>
+      <a href="" class="me-4 text-reset">
+        <!-- <i  style="font-size: 1.8rem;" class="fab fa-google"></i> -->
+        <img src="../g+.png" alt="">
+      </a>
+      <a href="" style="font-size: 1.8rem;" class="me-4 text-reset">
+        <!-- <i class="fab fa-linkedin"></i> -->
+        <img src="../link.png" alt="">
+      </a>
+      <!-- <a href="" class="me-4 text-reset">
+        <i class="fab fa-instagram"></i>
+      </a>
+
+      <a href="" class="me-4 text-reset">
+        <i class="fab fa-github"></i>
+      </a> -->
+    </div>
+    <!-- Right -->
+  </section>
+  <!-- Section: Social media -->
+
+  <!-- Section: Links  -->
+  <section class="fontSt">
+    <div class="container text-center text-md-start mt-5">
+      <!-- Grid row -->
+      <div class="row mt-3">
+        <!-- Grid column -->
+        <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+          <!-- Content -->
+          <h6 class="text-uppercase fw-bold mb-4">
+            <i class="fas fa-gem me-3"></i>Need Help with Anything
+          </h6>
+          <p>
+            Lets here all about us! <span>Contact Us</span>
+          </p>
+        </div>
+        <!-- Grid column -->
+
+        
+        <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+               
+          <p>
+            <a href="#!" class="text-reset text-decoration-none ">About Us</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset text-decoration-none">Media</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset text-decoration-none">Privacy Policy</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset text-decoration-none">Return and Refund Policy</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset text-decoration-none">Terms of use</a>
+          </p>
+        </div>
+        
+        <!-- Grid column -->
+        <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+          <!-- Links -->
+          <h6 class="text-uppercase fw-bold mb-4">
+            Sign up to our NewsSeller
+          </h6>
+          <form action="" class="">
+          <div class="mb-3">
+            <!-- <label for="exampleInputEmail1" class="form-label">Email address</label> -->
+            <input type="email" required class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Your email address">
+            <button type="submit" class="btn btn-outline-secondary mt-2">Submit</button>
+
+            
+          </div>
+          </form>
+        
+        </div>
+        <!-- Grid column -->
+      </div>
+      <!-- Grid row -->
+
+    </div>
+  </section>
+
+  <!-- <div class="row text-center border d-sm-none">
+
+      <div class="col-lg-12  ">
+        <ul class="d-flex justify-content-center my-2">
+    
+          <a class="nav-link active text-uppercase" aria-current="page" href="#">Contact Us</a>
+        
+        
+          <a class="nav-link text-uppercase" href="#">About Us</a>
+        
+    
+          <a class="nav-link text-uppercase" href="#">Our Services</a>
+          <a class="nav-link text-uppercase" href="#">Our Dashbord</a>
+        
+    
+      </ul>
+      </div>  
+
+
+  </div> -->
+
+</footer>
+
+
+
+  
+  </body>
+</html>
